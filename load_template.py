@@ -13,7 +13,7 @@ menu["heading"] = """<ul class="top-level astro-daoe2ojf"> <li class="astro-daoe
 menu["svg_icon"] = """</div> <svg aria-hidden="true" class="caret astro-daoe2ojf astro-6ssdnj4h" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="--sl-icon-size: 1.25rem;"><path d="{{svg_data}}"></path></svg>  </summary>"""
 menu["first_entry"] = """<ul class="astro-daoe2ojf">"""
 menu["selected_entry"] = """<li class="astro-daoe2ojf"> <a href=" """ + rooturl + """{{url_path}}" aria-current="page" class="astro-daoe2ojf"> <span class="astro-daoe2ojf">{{entry_name}}</span>  </a> </li>"""
-menu["entry"] = """<li class="astro-daoe2ojf"> <a href=""" + rooturl + """{{url_path}}" aria-current="false" class="astro-daoe2ojf"> <span class="astro-daoe2ojf">{{entry_name}}</span>  </a> </li>"""
+menu["entry"] = """<li class="astro-daoe2ojf"> <a href=" """ + rooturl + """{{url_path}}" aria-current="false" class="astro-daoe2ojf"> <span class="astro-daoe2ojf">{{entry_name}}</span>  </a> </li>"""
 menu["header_ending"] = """</ul></ul>"""
 menu["ending"] = """</details> </li> </ul>   <script aria-hidden="true">"""
 content = {}
