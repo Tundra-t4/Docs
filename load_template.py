@@ -32,6 +32,7 @@ content["code_end"] = content["code_content"].split("{{code_content}}")[1]
 content["content_end"] = """</div>"""
 
 
+
 menu_data = json.load(open("headings.json"))
 setting_data = {}
 to_del = []
@@ -139,7 +140,7 @@ def generate_doc_page(whoami,first=False):
 
 
     tmpl = tmpl.replace("{{next_name}}",next_name)
-    tmpl = tmpl.replace("{{next_url}}",next_url)
+    tmpl = tmpl.replace("{{next_url}}",rooturl + next_url)
     if "git" in setting_data.keys():
         tmpl = tmpl.replace("{{github_repo}}",setting_data["git"])
     if "discord" in setting_data.keys():
