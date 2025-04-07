@@ -1,0 +1,4 @@
+<para>
+Create a new project with: 
+<code>tundra new <project name></code>
+</para>

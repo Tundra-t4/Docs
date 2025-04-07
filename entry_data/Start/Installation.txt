@@ -1,0 +1,12 @@
+<para> Lorem Ipsum
+Something more <bold> bold </bold>
+or visit <url>https://google.com<urltext>here</url>
+</para>
+<code>Hello {
+    "Closure"
+}
+Syntax highlighting + next
+</code>
+<para>
+Continue
+</para>

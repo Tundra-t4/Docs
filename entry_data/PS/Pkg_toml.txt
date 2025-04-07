@@ -1,0 +1,6 @@
+<para>
+So a normal Package.toml will look like:
+<code>
+...
+</code>
+</para>
