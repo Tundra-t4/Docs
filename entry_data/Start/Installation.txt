@@ -1,12 +1,37 @@
-<para> Lorem Ipsum
-Something more <bold> bold </bold>
-or visit <url>https://google.com<urltext>here</url>
-</para>
-<code>Hello {
-    "Closure"
-}
-Syntax highlighting + next
-</code>
 <para>
-Continue
+
+
+<bold>Non Mac-OS Users</bold>
+
+    <bold>Dependencies</bold>
+        <bold>-</bold> LLVM (19.1.7_1+)
+
+
+You will be required to compile from source with the following commands:
+<code>
+git clone https://github.com/Tundra-t4/Tundra/
+cd Tundra
+bash assemble.sh <your operating system>
+</code>
+note: assemble.sh may require sudo depending on your operating system
+
+<bold>Mac-OS Users</bold>
+You may download the corresponding tar.gz from <url>https://github.com/Tundra-t4/Tundra/releases<urltext>here</url>
+
+<bold>Installation</bold>
+Simply with the .tar.gz run:
+<code>
+mkdir /usr/local/bin/Tundra
+tar -xvzf <path to Tundra-2025b-<your operating system>.tar.gz> -C /usr/local/bin/Tundra/
+</code>
+lastly, you will need to add the folder to PATH for macos users this is navigating to <bold>~/.zshrc</bold> (or your preferred shell) and adding the line:
+<code>
+export PATH="/usr/local/bin/Tundra:$PATH"
+</code>
+Verify the installation with:
+<code>
+Tundrac version: 
+Tundra c(ompiler): Anthology no. 2025b (Arcadia)
+</code>
+
 </para>

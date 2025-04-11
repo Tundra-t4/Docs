@@ -121,11 +121,11 @@ def generate_doc_page(whoami,first=False):
     for h in menu_data:
         for v in menu_data[h]:
             if v[0].startswith("__") == False:
-                print("-----")
-                print(v[0])
-                print(whoami)
-                print(f)
-                print("-----")
+                #print("-----")
+                #print(v[0])
+                #print(whoami)
+                #print(f)
+                #print("-----")
 
                 if f:
                     next_name = v[0]
@@ -136,7 +136,6 @@ def generate_doc_page(whoami,first=False):
                     f = True
         if f2:
             break
-        
 
 
     tmpl = tmpl.replace("{{next_name}}",next_name)

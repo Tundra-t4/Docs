@@ -1,0 +1,23 @@
+Welcome to Tundra, a programming language that follows the following principles:
+    <bold>1.</bold> The ability to do anything one wants be it high or low level
+    <bold>2.</bold> Optional safety, for high risk projects the program will not compile unless safe, but we understand if on hobby projects safety is not a great concern
+    <bold>3.</bold> Simplicity, no complex concepts and straightforward readability lowering the steep learning curve
+    <bold>4.</bold> Customisable to the exteme!
+
+<bold>History</bold>
+Overall, this language started as a hobbyist project before it became a task for me to see how far could I catch up to commercial languages to now a dedicated long term project. 
+At first a basic implementation of this was written as a shell in python before it became apparent the technical debt was catastrophic, then under the name "day" was it written in python once more with proper components.
+Eg. Lexer, Parser, Interpreter
+Second lastly, was it written in C++ under the name maven (still present in some internal easter eggs).
+Then came the task of codegen, LLVM was first used in a intemediary immediate representation (iir) called notary (see archive/notary).
+Code generation was solved with polaroid (using struct based instructions catered to the node).
+Finally, due to confusions with Apache Maven and this language, it was renamed to Tundra.
+Overall, this language is very new but I am excited to present what will hopefully be a legacy.
+
+
+<bold>Where are we so far?</bold>
+I recommend checking the github repository's roadmap for more information.
+
+<bold>Final Message</bold>
+Enjoy and explore Tundra, or even better- Break it! Don’t forget to report any issues to help Tundra become more stable,
+Thank you for reading.
