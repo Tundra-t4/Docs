@@ -1,37 +1,4 @@
 <para>
-<bold>Mercury</bold>
-Mercury is Tundra's package(TBA) and project manager.
-Mercury serves as a multi-purpose utility to interface with tundrac without repetetive verbose commands.
-For example, in C often make is used to have many gcc/clang commands to compile large projects.
-Mercury takes this bother out of your hands and automates the build process as much as possible.
-(note: it is however still possible to use the compiler if wanted)
-
-<bold>With Mercury</bold>
 Create a new project with: 
-<code>mercury new <project name></code>
-eg.
-<code>mercury new example</code>
-
-You will find the following folders
-<code>.
-├── Package.lock
-├── Package.toml
-└── src
-    └── example.ta
-</code>
-
-navigate to <bold>example.ta</bold> and write in it:
-<code>println("Hello world from Tundra")</code>
-You may now either build this with:
-<code>mercury build</code>
-or build and run your project with:
-<code>mercury build run</code>
-
-
-<bold>With Tundrac</bold>
-Simply create a <bold>.ta</bold> file for example:
-<code>println("Hello world")</code>
-Unlike most other low level languages, it is optional to use a main function in Tundra.
-Compile this basic example with:
-<code>tundrac compile yourtafile.ta</code>
+<code>tundra new <project name></code>
 </para>
